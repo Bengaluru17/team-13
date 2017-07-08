@@ -17,22 +17,19 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="53dp"
-        android:layout_marginStart="53dp"
         android:layout_marginTop="110dp"
         android:id="@+id/username"
-        android:textSize="18sp" />
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp" />
 
-    <TextView
-        android:text="Password"
+    <Button
+        android:text="Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/username"
-        android:layout_alignRight="@+id/username"
-        android:layout_alignEnd="@+id/username"
-        android:layout_marginTop="79dp"
-        android:id="@+id/password"
-        android:textSize="20sp" />
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:id="@+id/loginButton" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -40,6 +37,7 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/passwordText"
+        android:layout_alignBaseline="@+id/password"
         android:layout_alignBottom="@+id/password"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
@@ -50,18 +48,20 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/usernameText"
-        android:layout_above="@+id/password"
+        android:layout_alignBaseline="@+id/username"
+        android:layout_alignBottom="@+id/username"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <Button
-        android:text="Login"
+    <TextView
+        android:text="Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/password"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="90dp"
-        android:id="@+id/loginButton" />
+        android:id="@+id/password"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
     />

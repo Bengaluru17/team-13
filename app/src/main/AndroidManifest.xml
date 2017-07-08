@@ -16,7 +16,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".trackingWomenForm" />
-        <activity android:name=".trackingActivityForm"></activity>
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".trackingActivityForm" />
+        <activity android:name=".trackingActivityFormPage2" />
+        <activity android:name=".trackingActivityFormPage3"></activity>
     </application>
 
 </manifest>
