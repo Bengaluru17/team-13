@@ -1,5 +1,6 @@
 package com.example.vibha.kshamataapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -21,7 +22,9 @@ et1= (EditText) findViewById(R.id.usernameText);
         String type = "login";
         Bw bw = new Bw(this);
         bw.execute(type, name, pwd);
-        /*if (bw.ad1==1)
-            Intent int1=new Intent(this,)}*/
+        if (bw.ad1==0){
+            Intent int1=new Intent(this,VolunteerForm.class);
+        startActivity(int1);
+        }
     }
 }

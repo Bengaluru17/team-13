@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".trackingWomenForm" />
+        <activity android:name=".VolunteerForm" />
+<activity android:name=".trackingWomenForm"/>
 
         <activity android:name=".activity2" />
         <activity android:name=".activity3" />
