@@ -16,10 +16,12 @@ et1= (EditText) findViewById(R.id.usernameText);
     }
 
     public void login(View view) {
-String name=et1.getText().toString();
-        String pwd=et2.getText().toString();
-        String type="login";
-        Bw bw=new Bw(this);
-        bw.execute(type,name,pwd);
+        String name = et1.getText().toString();
+        String pwd = et2.getText().toString();
+        String type = "login";
+        Bw bw = new Bw(this);
+        bw.execute(type, name, pwd);
+        /*if (bw.ad1==1)
+            Intent int1=new Intent(this,)}*/
     }
 }

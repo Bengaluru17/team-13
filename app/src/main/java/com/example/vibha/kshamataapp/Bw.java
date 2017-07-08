@@ -22,6 +22,7 @@ import java.net.URLEncoder;
 public class Bw extends AsyncTask<String,Void,String> {
 AlertDialog ad;
     Context context;
+    public static int ad1;
     Bw(Context ctx)
     {
 context=ctx
@@ -33,8 +34,8 @@ context=ctx
         String type=params[0];
        // String mobile=params[3];
         //int mob=Integer.parseInt(mobile);
-        String login_url="https://madhupriyaks05.000webhostapp.com/Q.php";
-        String register_url="http://192.168.1.103/sign_up.php";
+        String login_url="https://madhupriyaks05.000webhostapp.com/login_return.php";
+        //String register_url="http://192.168.1.103/sign_up.php";
         if(type.equals("login"))
         {
             try {
@@ -58,8 +59,9 @@ context=ctx
                 while((line=buf1.readLine())!= null) {
                     result += line;
                 }
-buf1.close();
-                is.close();
+if(pwd.equals("admin"))
+    ad1=1;
+//Log.e("admin","hello");
                 con.disconnect();
                 return result;
             } catch (MalformedURLException e) {
@@ -67,7 +69,7 @@ buf1.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
-}       return null;
+        }       return null;
     }
 
     @Override
