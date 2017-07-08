@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kshamata App</string>
+    <string name="title_activity_tracking_women_form">trackingWomenForm</string>
+    <string name="title_activity_tracking_form">trackingActivityForm</string>
+</resources>
