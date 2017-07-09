@@ -33,7 +33,7 @@ context=ctx
         String type=params[0];
        // String mobile=params[3];
         //int mob=Integer.parseInt(mobile);
-        String login_url="http://192.168.1.103/login.php";
+        String login_url="https://madhupriyaks05.000webhostapp.com/Q.php";
         String register_url="http://192.168.1.103/sign_up.php";
         if(type.equals("login"))
         {
