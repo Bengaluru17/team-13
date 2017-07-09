@@ -35,7 +35,7 @@
         <activity android:name=".trackingActivityForm" />
         <activity android:name=".trackingActivityFormPage2" />
         <activity android:name=".trackingActivityFormPage3" />
-        <activity android:name=".recording"></activity>
+        
     </application>
 
 </manifest>
