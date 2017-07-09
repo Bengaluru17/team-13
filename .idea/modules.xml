@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KshamataApp.iml" filepath="$PROJECT_DIR$/KshamataApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+=======
+>>>>>>> 358a63f01f5c51f9c5ed06ed75e47891c27490a0
       <module fileurl="file://$PROJECT_DIR$/team-13.iml" filepath="$PROJECT_DIR$/team-13.iml" />
     </modules>
   </component>

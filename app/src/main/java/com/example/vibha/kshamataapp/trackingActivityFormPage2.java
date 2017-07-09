@@ -5,18 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class trackingActivityForm extends AppCompatActivity {
+public class trackingActivityFormPage2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tracking_form);
+        setContentView(R.layout.activity_tracking_form_page2);
     }
 
-    public void onclickActivityForm(View view){
-        Intent intent = new Intent(this, trackingActivityFormPage2.class);
+    public void onclickActivityFormPage2(View view){
+        Intent intent = new Intent(this, trackingActivityFormPage3.class);
         startActivity(intent);
     }
-
-
 }

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tracking_form_page2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vibha.kshamataapp.trackingActivityFormPage2"
+    android:layout_alignParentLeft="false">
+
+    <TextView
+        android:text="Target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="41dp"
+        android:id="@+id/Target" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/targetText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/targetText"
+        android:layout_marginTop="59dp"
+        android:id="@+id/numberEngaded"
+        android:text="Number Engaded" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/targetText"
+        android:layout_alignRight="@+id/targetText"
+        android:layout_alignEnd="@+id/targetText"
+        android:layout_marginTop="44dp"
+        android:id="@+id/numberEngagedText" />
+
+    <TextView
+        android:text="Shelter Home Response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numberEngagedText"
+        android:layout_alignRight="@+id/Target"
+        android:layout_alignEnd="@+id/Target"
+        android:layout_marginTop="65dp"
+        android:id="@+id/responseShelter" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/numberEngagedText"
+        android:layout_alignRight="@+id/numberEngagedText"
+        android:layout_alignEnd="@+id/numberEngagedText"
+        android:layout_marginTop="48dp"
+        android:id="@+id/responseShelterText" />
+
+    <TextView
+        android:text="Women Response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/responseShelterText"
+        android:layout_alignLeft="@+id/numberEngaded"
+        android:layout_alignStart="@+id/numberEngaded"
+        android:layout_marginTop="56dp"
+        android:id="@+id/responseWomen" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/responseShelterText"
+        android:layout_alignRight="@+id/responseShelterText"
+        android:layout_alignEnd="@+id/responseShelterText"
+        android:layout_marginTop="41dp"
+        android:id="@+id/responseWomenText" />
+
+    <TextView
+        android:text="Amount Spent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/responseWomenText"
+        android:layout_alignRight="@+id/responseShelter"
+        android:layout_alignEnd="@+id/responseShelter"
+        android:layout_marginTop="37dp"
+        android:id="@+id/amountSpent" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignTop="@+id/amountSpent"
+        android:layout_alignLeft="@+id/responseWomenText"
+        android:layout_alignStart="@+id/responseWomenText"
+        android:id="@+id/amountSpentText" />
+
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/amountSpentText"
+        android:layout_alignEnd="@+id/amountSpentText"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp"
+        android:id="@+id/onclickActivityFormPage2"
+        android:onClick="onclickActivityFormPage2"/>
+</RelativeLayout>

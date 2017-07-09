@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tracking_form_page3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vibha.kshamataapp.trackingActivityFormPage3">
+
+    <Button
+        android:text="Open Camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:id="@+id/cameraButton" />
+
+    <Button
+        android:text="Add next image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cameraButton"
+        android:layout_alignRight="@+id/cameraButton"
+        android:layout_alignEnd="@+id/cameraButton"
+        android:layout_marginTop="57dp"
+        android:id="@+id/nextIamgeButton"
+        android:layout_alignLeft="@+id/cameraButton"
+        android:layout_alignStart="@+id/cameraButton" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitActivity"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/nextIamgeButton"
+        android:layout_toEndOf="@+id/nextIamgeButton"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="56dp" />
+</RelativeLayout>
