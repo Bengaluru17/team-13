@@ -32,5 +32,9 @@ et1= (EditText) findViewById(R.id.usernameText);
             Intent int1=new Intent(this,VolunteerForm.class);
         startActivity(int1);
         }
+        else{
+        Intent int1=new Intent(this,admin_start.class);
+            startActivity(int1);
+        }
     }
 }
