@@ -72,7 +72,9 @@
         android:layout_alignStart="@+id/name"
         android:layout_below="@+id/dob"
         android:layout_marginTop="54dp"
-        android:text="Userid" />
+        android:text="Userid"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView4"
@@ -82,7 +84,9 @@
         android:layout_alignRight="@+id/textView3"
         android:layout_below="@+id/textView3"
         android:layout_marginTop="42dp"
-        android:text="contact" />
+        android:text="contact"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button"
@@ -117,5 +121,15 @@
         android:layout_below="@+id/textView4"
         android:layout_toRightOf="@+id/dob"
         android:layout_toEndOf="@+id/dob" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="record"
+        android:text="record"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/dob"
+        android:layout_alignEnd="@+id/dob" />
 
 </RelativeLayout>

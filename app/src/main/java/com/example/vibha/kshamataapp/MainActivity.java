@@ -86,17 +86,17 @@ public class MainActivity extends AppCompatActivity {
         mPlayer.release();
         mPlayer = null;
     }
-    public void record(View view) {
+    public void record(boolean rec) {
         boolean mStartRecording = true;
-        mFileName = getExternalCacheDir().getAbsolutePath();
+        mFileName = "/storage/emulated/0/Android/data/com.example.vibha.kshamataapp/cache";
         mFileName += "/audiorecordtest.3gp";
         ActivityCompat.requestPermissions(this, permissions, REQUEST_RECORD_AUDIO_PERMISSION);
-        onRecord(mStartRecording);
+        onRecord(rec);
     }
 
-    public void play(View view) {
-        boolean mStartPlaying = true;
-        onPlay(mStartPlaying);
+    public void play(boolean ply) {
+       // boolean mStartPlaying = true;
+        onPlay(ply);
     }
 
     public void stop_recording(View view) {
